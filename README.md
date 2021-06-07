@@ -1,5 +1,9 @@
 # ESP32 - MQTT - Node-Red Integration Project
 
+**Authors:**  Mike Camara, Helen Tera & Lino Mediavilla.
+
+**Instructor:** Dr. Jaanus Kaugerand.
+
 ## ESP32 side
 - It builds on the previous examples built over the course.
 - We have a queue for communication between `producer` and `publisher` tasks.
