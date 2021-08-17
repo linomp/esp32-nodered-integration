@@ -2,7 +2,7 @@
 
 **Authors:**  Mike Camara, Helen Tera & Lino Mediavilla.
 
-**Instructor:** Dr. Jaanus Kaugerand.
+**Instructor:** Jaanus Kaugerand.
 
 ## ESP32 side
 - It builds on the previous examples built over the course.
