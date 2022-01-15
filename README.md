@@ -6,7 +6,7 @@
 
 ## ESP32 side
 - It builds on the previous examples built over the course.
-- We have a queue for communication between `producer` and `publisher` tasks.
+- We have a queue for communication between `producer` and `publisher` FreeRTOS tasks.
 - We defined a global variable to toggle data production on/off.
 - In the `mqtt_event_handler_cb` function, we `switch` on the `event_id` and in the case of `MQTT_EVENT_DATA`, we perform the necessary checks and update the `enableProduce` variable as requested by the message payload.
 - The producer task periodically checks `enableProduce` to know if it must produce or just sleep.
